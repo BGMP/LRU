@@ -253,7 +253,7 @@ void UpdateRAMLRU(RAM * ram, int page) {
 //
 
 void RenderRAM(RAM * ram) {
-  //
+  // Top left header (requests)
   WriteLogEntry(ram, " RQ |");
 
   // All values processed by the RAM
