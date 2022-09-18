@@ -1,0 +1,13 @@
+# Vim generated files
+*~
+*.swp
+
+# Mac OSX generated files
+.DS_Store
+
+# JetBrains
+.idea
+
+# Build
+build/
+cmake-build-*/
