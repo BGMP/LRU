@@ -208,7 +208,7 @@ void ProcessRAMValue(RAM * ram, int v) {
 int GetLRUPage(RAM * ram) {
 
   // §NOTE: The underlying logic to determine the Least Recently Used (LRU) page is rather simple. Here's how it works:
-  // When a value is queued to the RAM, the LRU matrix is updated with the page into which said value was set into.
+  // When a value is queued to the RAM, the LRU matrix is updated with the page into which said value was set to.
   // In order to get the LRU page based on this matrix, we add all the numbers in each row. The number of the row
   // with the lowest result corresponds to the LRU page.
 
@@ -236,9 +236,8 @@ int GetLRUPage(RAM * ram) {
 
 void UpdateRAMLRU(RAM * ram, int page) {
 
-  // §NOTE: The update process works as follows:
-  // When a value is queued to the RAM, the number of the page into which said value was set to is used to update the
-  // LRU matrix:
+  // §NOTE: The update process works as follows. When a value is queued to the RAM, the number of the page into which
+  // said value was set to is used to update the LRU matrix:
   // - All values at row index 'page' are set to 1.
   // - All values at column index 'page' are set to 0.
 
