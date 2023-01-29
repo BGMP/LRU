@@ -5,7 +5,7 @@
 // Desc: main.h
 // Header file for the main program code and libraries.
 //
-// 27/08/2022 (José Benavente & Claudia Villagrán)
+// 27/08/2022 (José Benavente)
 // File inception.
 //
 ////////////////////////////////////////////////////////////////////////////////
