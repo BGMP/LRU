@@ -48,6 +48,6 @@ int main() {
   ProcessRAMValues(ram, sample);
   FreeRAM(ram);
 
-  printf("\nPress any key to continue...");
+  printf("\nPress Enter to continue...");
   getchar();
 }
