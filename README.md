@@ -3,8 +3,10 @@ LRU
 Memory administration emulator built in C.
 
 This program emulates memory management implementing the LRU (Least Recently Used) page replacement algorithm. The 
-implementation is rather simple and aims to be easy to read and understand, as it is a project I made for an
-Operative Systems class, and decided to tidy up and upload here as an academic resource for anybody to peek into.
+implementation is rather simple, and it aims to be easy to read and understand.
+
+This is a project I made for an Operative Systems class, which I decided to tidy up and upload to GitHub as an academic
+resource for anybody to peek into.
 
 ### General Overview
 As stated in the brief summary above, this program is meant to be a resource for people who would like to understand
@@ -20,7 +22,7 @@ a few macros you may modify at will:
 #define FRAMES 4          // Number of page frames
 ```
 
-And there is the main structure which holds the relevant information all together.
+And there is the main structure which holds the relevant information altogether.
 
 ```c
 typedef struct RAM {
